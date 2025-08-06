@@ -21,3 +21,5 @@ The "target" field refers to the presence of heart disease in the patient.
 - number of major vessels (0-3) colored by flourosopy
 - thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
 
+## Training and Inference Notebook
+[IPython Notebook](./HeartDiseaseTrainingAndPrediction.ipynb)
