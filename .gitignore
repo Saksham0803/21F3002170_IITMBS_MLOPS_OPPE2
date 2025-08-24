@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+*.pyo
+*.DS_Store
+
+# logs & perf outputs
+logs/
+perf/*.txt
+
+# notebooks checkpoints
+.ipynb_checkpoints/
+
+# local envs
+.venv/
+.env
+
+# Kubernetes and local artifacts
+*.swp
