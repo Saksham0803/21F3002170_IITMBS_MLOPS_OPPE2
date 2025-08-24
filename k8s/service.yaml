@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: heart-svc
+  namespace: oppe2
+spec:
+  type: LoadBalancer
+  selector:
+    app: heart-api
+  ports:
+  - port: 80
+    targetPort: 8080

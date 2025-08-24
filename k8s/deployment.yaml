@@ -1,0 +1,43 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: heart-api
+  namespace: oppe2
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: heart-api
+  template:
+    metadata:
+      labels:
+        app: heart-api
+    spec:
+      containers:
+      - name: heart-api
+        image: asia-south1-docker.pkg.dev/vast-advantage-461609-t2/oppe2/heart-api:9025c80
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8080
+        readinessProbe:
+          httpGet:
+            path: /healthz
+            port: 8080
+          initialDelaySeconds: 5
+          periodSeconds: 10
+        livenessProbe:
+          httpGet:
+            path: /healthz
+            port: 8080
+          initialDelaySeconds: 15
+          periodSeconds: 20
+        resources:
+          requests:
+            cpu: "200m"
+            memory: "256Mi"
+          limits:
+            cpu: "1"
+            memory: "1Gi"
+        env:
+        - name: MODEL_PATH
+          value: /app/models/heart.joblib
