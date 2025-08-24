@@ -1,0 +1,912 @@
+[
+  {
+    "row_index": 0,
+    "predicted_probability": 0.999999999977619,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 22.394402817366302
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -4.8481588116900936
+      },
+      {
+        "feature": "age",
+        "shap_value": -1.9752090416183141
+      },
+      {
+        "feature": "chol",
+        "shap_value": 1.0151416206149697
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      }
+    ]
+  },
+  {
+    "row_index": 2,
+    "predicted_probability": 1.0,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 37.02235483756682
+      },
+      {
+        "feature": "age",
+        "shap_value": -1.7162371894950241
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": 1.5895119218375686
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 0.5457704307038357
+      }
+    ]
+  },
+  {
+    "row_index": 4,
+    "predicted_probability": 0.9992485009425848,
+    "top_contributors": [
+      {
+        "feature": "thalach",
+        "shap_value": 3.037472337548133
+      },
+      {
+        "feature": "age",
+        "shap_value": -2.493152745864894
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -1.5423278944731857
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      },
+      {
+        "feature": "cp",
+        "shap_value": 0.308630753479497
+      }
+    ]
+  },
+  {
+    "row_index": 5,
+    "predicted_probability": 0.9999704253807574,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 7.035053196155757
+      },
+      {
+        "feature": "thalach",
+        "shap_value": -6.162657780030812
+      },
+      {
+        "feature": "age",
+        "shap_value": 5.276002817833805
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -1.5423278944731857
+      },
+      {
+        "feature": "chol",
+        "shap_value": -0.7779234955481867
+      }
+    ]
+  },
+  {
+    "row_index": 7,
+    "predicted_probability": 0.9999987404754597,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 9.594944799690849
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 3.6124804698968176
+      },
+      {
+        "feature": "age",
+        "shap_value": -3.270068302234764
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -2.93425670172241
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      }
+    ]
+  },
+  {
+    "row_index": 8,
+    "predicted_probability": 1.0,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 50.5532104562523
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": 1.9374941236498746
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 1.312447940502081
+      },
+      {
+        "feature": "cp",
+        "shap_value": -0.45008651549093304
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": -0.3417300969927972
+      }
+    ]
+  },
+  {
+    "row_index": 9,
+    "predicted_probability": 0.9999999989635491,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 19.83451121383121
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -2.93425670172241
+      },
+      {
+        "feature": "thalach",
+        "shap_value": -2.904278363388269
+      },
+      {
+        "feature": "age",
+        "shap_value": -2.234180893741604
+      },
+      {
+        "feature": "chol",
+        "shap_value": 1.9365778608654807
+      }
+    ]
+  },
+  {
+    "row_index": 10,
+    "predicted_probability": 0.9999998517530779,
+    "top_contributors": [
+      {
+        "feature": "trestbps",
+        "shap_value": 7.157227150834466
+      },
+      {
+        "feature": "age",
+        "shap_value": 2.6862842966009057
+      },
+      {
+        "feature": "sno",
+        "shap_value": -1.3760192154595412
+      },
+      {
+        "feature": "cp",
+        "shap_value": 0.687989387964712
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 0.35410105325427427
+      }
+    ]
+  },
+  {
+    "row_index": 12,
+    "predicted_probability": 1.0,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 41.41074044362698
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": 2.285476325462181
+      },
+      {
+        "feature": "age",
+        "shap_value": -1.9752090416183141
+      },
+      {
+        "feature": "chol",
+        "shap_value": 1.5132152639936243
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 1.312447940502081
+      }
+    ]
+  },
+  {
+    "row_index": 15,
+    "predicted_probability": 0.999999999999972,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 24.95429442090139
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 4.954166112043747
+      },
+      {
+        "feature": "age",
+        "shap_value": -3.270068302234764
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -2.93425670172241
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      }
+    ]
+  },
+  {
+    "row_index": 16,
+    "predicted_probability": 1.0,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 36.65665603706181
+      },
+      {
+        "feature": "thalach",
+        "shap_value": -7.312674044728181
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      },
+      {
+        "feature": "chol",
+        "shap_value": 0.5419716594052479
+      },
+      {
+        "feature": "cp",
+        "shap_value": 0.308630753479497
+      }
+    ]
+  },
+  {
+    "row_index": 17,
+    "predicted_probability": 1.0,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 52.01600565827235
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": 1.9374941236498746
+      },
+      {
+        "feature": "chol",
+        "shap_value": -1.400515549771505
+      },
+      {
+        "feature": "age",
+        "shap_value": 0.6145094796145857
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": -0.4425404756056725
+      }
+    ]
+  },
+  {
+    "row_index": 20,
+    "predicted_probability": 0.9999999948019627,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 7.40075199666077
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 3.037472337548133
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": 1.2415297200252626
+      },
+      {
+        "feature": "chol",
+        "shap_value": 1.0400453027839025
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.7671840677488297
+      }
+    ]
+  },
+  {
+    "row_index": 23,
+    "predicted_probability": 0.9999999447115775,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 15.811824408276069
+      },
+      {
+        "feature": "thalach",
+        "shap_value": -7.312674044728181
+      },
+      {
+        "feature": "age",
+        "shap_value": 3.7221717050940657
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -1.5423278944731857
+      },
+      {
+        "feature": "chol",
+        "shap_value": 0.6664900702499116
+      }
+    ]
+  },
+  {
+    "row_index": 24,
+    "predicted_probability": 1.0,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 25.685692021911418
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 5.912512999291554
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      },
+      {
+        "feature": "chol",
+        "shap_value": 0.8159121632635079
+      },
+      {
+        "feature": "age",
+        "shap_value": -0.4213779288785743
+      }
+    ]
+  },
+  {
+    "row_index": 27,
+    "predicted_probability": 0.9999998969658142,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 12.886234004235964
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -3.282238903534716
+      },
+      {
+        "feature": "age",
+        "shap_value": -2.752124597988184
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 1.5041173179516425
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      }
+    ]
+  },
+  {
+    "row_index": 28,
+    "predicted_probability": 0.9999999999999938,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 31.17117402948661
+      },
+      {
+        "feature": "thalach",
+        "shap_value": -4.054294628085637
+      },
+      {
+        "feature": "age",
+        "shap_value": -3.270068302234764
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": 1.0675386191191096
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      }
+    ]
+  },
+  {
+    "row_index": 30,
+    "predicted_probability": 1.0,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 38.11945123908186
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 5.529174244392431
+      },
+      {
+        "feature": "age",
+        "shap_value": -3.788012006481344
+      },
+      {
+        "feature": "chol",
+        "shap_value": -2.0729149683326886
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": 1.9374941236498746
+      }
+    ]
+  },
+  {
+    "row_index": 31,
+    "predicted_probability": 1.0,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 32.63396923150666
+      },
+      {
+        "feature": "chol",
+        "shap_value": -1.6246486892918994
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 1.1207785630525198
+      },
+      {
+        "feature": "age",
+        "shap_value": 0.8734813317378757
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      }
+    ]
+  },
+  {
+    "row_index": 33,
+    "predicted_probability": 0.999999999969222,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 9.96064360019586
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 5.529174244392431
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": 1.5895119218375686
+      },
+      {
+        "feature": "age",
+        "shap_value": 1.3914250359844558
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      }
+    ]
+  },
+  {
+    "row_index": 34,
+    "predicted_probability": 1.0,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 31.536872829991626
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 7.062529263988922
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -1.8903100962854917
+      },
+      {
+        "feature": "chol",
+        "shap_value": 1.2890821244732298
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      }
+    ]
+  },
+  {
+    "row_index": 37,
+    "predicted_probability": 0.9999999918918044,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 11.423438802215912
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 1.6957866954012037
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -1.5423278944731857
+      },
+      {
+        "feature": "chol",
+        "shap_value": 1.1147563492907007
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": -1.0474027472829235
+      }
+    ]
+  },
+  {
+    "row_index": 38,
+    "predicted_probability": 0.9871704525424619,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": -5.764404821519697
+      },
+      {
+        "feature": "age",
+        "shap_value": -4.0469838586046345
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 3.8041498473463786
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": 1.5895119218375686
+      },
+      {
+        "feature": "chol",
+        "shap_value": 1.5630226283314899
+      }
+    ]
+  },
+  {
+    "row_index": 39,
+    "predicted_probability": 0.9999999999997273,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 30.074077627971572
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -5.022149912596246
+      },
+      {
+        "feature": "thalach",
+        "shap_value": -1.945931476140462
+      },
+      {
+        "feature": "age",
+        "shap_value": -0.6803497810018643
+      },
+      {
+        "feature": "chol",
+        "shap_value": 0.39254956639165156
+      }
+    ]
+  },
+  {
+    "row_index": 40,
+    "predicted_probability": 0.9141830177706128,
+    "top_contributors": [
+      {
+        "feature": "thalach",
+        "shap_value": -5.395980270232567
+      },
+      {
+        "feature": "age",
+        "shap_value": 4.499087261463935
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -2.93425670172241
+      },
+      {
+        "feature": "chol",
+        "shap_value": 2.210518364723741
+      },
+      {
+        "feature": "sno",
+        "shap_value": -1.0103204149545282
+      }
+    ]
+  },
+  {
+    "row_index": 41,
+    "predicted_probability": 1.0,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 28.976981226456534
+      },
+      {
+        "feature": "age",
+        "shap_value": 2.1683405923543257
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 1.8874560728507652
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -0.8463634908485737
+      }
+    ]
+  },
+  {
+    "row_index": 43,
+    "predicted_probability": 0.9910648817204567,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": -5.398706021014684
+      },
+      {
+        "feature": "age",
+        "shap_value": -4.0469838586046345
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 3.8041498473463786
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": 1.5895119218375686
+      },
+      {
+        "feature": "chol",
+        "shap_value": 1.5630226283314899
+      }
+    ]
+  },
+  {
+    "row_index": 45,
+    "predicted_probability": 1.0,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 42.507836845142016
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 6.679190509089799
+      },
+      {
+        "feature": "age",
+        "shap_value": -2.493152745864894
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      },
+      {
+        "feature": "chol",
+        "shap_value": 0.4672606128984497
+      }
+    ]
+  },
+  {
+    "row_index": 46,
+    "predicted_probability": 1.0,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 45.43342724918212
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 4.762496734594186
+      },
+      {
+        "feature": "age",
+        "shap_value": -3.529040154358054
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": 1.9374941236498746
+      },
+      {
+        "feature": "chol",
+        "shap_value": 0.9653342562771043
+      }
+    ]
+  },
+  {
+    "row_index": 47,
+    "predicted_probability": 1.0,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 44.70202964817209
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": 3.677405132711405
+      },
+      {
+        "feature": "age",
+        "shap_value": 1.3914250359844558
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": -0.7449716114442981
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 0.737439808153397
+      }
+    ]
+  },
+  {
+    "row_index": 49,
+    "predicted_probability": 0.9999996854382752,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 9.229245999185835
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -3.630221105347022
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 2.6541335826490107
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      },
+      {
+        "feature": "chol",
+        "shap_value": -0.7281161312103213
+      }
+    ]
+  },
+  {
+    "row_index": 51,
+    "predicted_probability": 0.9999999999994349,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 24.222896819891368
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -4.67416771078394
+      },
+      {
+        "feature": "chol",
+        "shap_value": -1.9982039218258905
+      },
+      {
+        "feature": "age",
+        "shap_value": 1.6503968881077458
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 1.312447940502081
+      }
+    ]
+  },
+  {
+    "row_index": 52,
+    "predicted_probability": 1.0,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 47.261921251707186
+      },
+      {
+        "feature": "age",
+        "shap_value": 3.9811435572173557
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": 1.9374941236498746
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": -0.9465923686700484
+      },
+      {
+        "feature": "cp",
+        "shap_value": 0.687989387964712
+      }
+    ]
+  },
+  {
+    "row_index": 57,
+    "predicted_probability": 0.6387766296881062,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": -9.055694026064813
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 3.8041498473463786
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": -2.357937669250301
+      },
+      {
+        "feature": "age",
+        "shap_value": 1.1324531838611658
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": 0.5455653164006505
+      }
+    ]
+  },
+  {
+    "row_index": 58,
+    "predicted_probability": 1.0,
+    "top_contributors": [
+      {
+        "feature": "sno",
+        "shap_value": 51.65030685776734
+      },
+      {
+        "feature": "thalach",
+        "shap_value": 3.8041498473463786
+      },
+      {
+        "feature": "age",
+        "shap_value": -2.493152745864894
+      },
+      {
+        "feature": "trestbps",
+        "shap_value": -1.5423278944731857
+      },
+      {
+        "feature": "oldpeak",
+        "shap_value": 0.867994446361705
+      }
+    ]
+  }
+]
